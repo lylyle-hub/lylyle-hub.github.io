@@ -1,0 +1,35 @@
+h1 {
+    color:white;
+}
+
+body {
+  margin: 0;
+  Background-color: #4470F7;
+  }
+
+.square {
+    width: 120px;
+    height: 120px;
+    background-color: aquamarine;
+    animation-name: 'spinnySquare';
+    animation-duration: 3s;
+}
+
+.animateMe {
+    animation-name: spinnySquare;
+    animation-duration: 3s;
+}
+
+@keyframes spinnySquare {
+    0% {transform: rotate(-90deg);}
+    100% {transform:scale(2);}
+}
+.wrapper {
+    width:80%;
+    border:1px solid blueviolet;
+    margin:auto;
+}
+
+#helloMessage {
+
+}
