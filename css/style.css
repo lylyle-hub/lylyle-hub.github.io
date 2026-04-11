@@ -45,3 +45,25 @@ body {
     margin: 0 auto;
     font-family: "Gluten", cursive;
   }
+
+  img {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    margin: 20px auto;
+  }
+  
+  .div{
+    padding: 1rem;
+    border-radius: 20px;
+    gap: 20px;
+    background-color: #050738;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    line-height: 2;
+    width: 39rem;
+    margin: 0 auto;
+    font-family: "Gluten", cursive;
+  }
