@@ -1,35 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Michroma&display=swap');
+
 h1 {
-    color:white;
+    color:black;
 }
 
 body {
-  margin: 0;
-  Background-color: #4470F7;
+    background-image: url(../images/FUduVPRVEAAIKuv.jpg);
+    background-size: cover;
+    background-position: top;
   }
 
-.square {
-    width: 120px;
-    height: 120px;
-    background-color: aquamarine;
-    animation-name: 'spinnySquare';
-    animation-duration: 3s;
+.main-home {
+  padding: 2rem;
+  margin: 20px auto;
 }
 
-.animateMe {
-    animation-name: spinnySquare;
-    animation-duration: 3s;
-}
+.h1-home {
+    padding: 2rem;
+    border-radius: 20px;
+    gap: 20px;
+    height: 80%;
+    width:30%;
+    background-color: #050738;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-family: "Lily Script One";
+    margin: 20px auto;
+  }
 
-@keyframes spinnySquare {
-    0% {transform: rotate(-90deg);}
-    100% {transform:scale(2);}
-}
-.wrapper {
-    width:80%;
-    border:1px solid blueviolet;
-    margin:auto;
-}
-
-#helloMessage {
-
-}
+  .p-home {
+    padding: 1rem;
+    border-radius: 20px;
+    gap: 20px;
+    background-color: #050738;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    line-height: 2;
+    width: 39rem;
+    margin: 0 auto;
+    font-family: "Gluten", cursive;
+  }
