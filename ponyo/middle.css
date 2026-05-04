@@ -42,48 +42,8 @@ section{
     position: relative;
 }
 
-.page-1{
-    background-image: url('images/page-3.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.page-1 .content-1{
-    position: absolute;
-    top: 5%;
-    right: 5%;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    width: 300px;
-    background-color: black;
-    padding: 20px;
-}
-
-.page-2{
-    background-image: url('images/page-4.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.page-2 .content-2{
-    position: absolute;
-    top: 5%;
-    right: 5%;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    width: 300px;
-    background-color: black;
-    padding: 20px;
-}
-
 .page-3{
-    background-image: url('images/page-5.png');
+    background-image: url('images/page-3.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -94,10 +54,53 @@ section{
     top: 5%;
     right: 5%;
     color: white;
+    font-family: "Sue Ellen Francisco", cursive;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
     width: 300px;
-    background-color: black;
+    background-color: #17438A;
+    padding: 20px;
+}
+
+.page-4{
+    background-image: url('images/page-4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.page-4 .content-4{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    color: white;
+    font-family: "Sue Ellen Francisco", cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 300px;
+    background-color: #17438A;
+    padding: 20px;
+}
+
+.page-5{
+    background-image: url('images/page-5.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.page-5 .content-5{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    color: white;
+    font-family: "Sue Ellen Francisco", cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 300px;
+    background-color: #17438A;
     padding: 20px;
 }
