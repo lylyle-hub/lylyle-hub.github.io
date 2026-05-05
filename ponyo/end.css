@@ -42,14 +42,14 @@ section{
     position: relative;
 }
 
-.page-3{
-    background-image: url('images/page-3.jpg');
+.page-6{
+    background-image: url('images/page-6.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.page-3 .content-3{
+.page-6 .content-6{
     position: absolute;
     top: 5%;
     right: 5%;
@@ -63,21 +63,28 @@ section{
     padding: 20px;
 }
 
-.interact-3{
-    width: 40%;
+.interact-6{
+    width: 35%;
     position:absolute;
-    bottom:15%;
-    left:30%;
+    bottom:10%;
+    left:45%;
 }
 
-.page-4{
-    background-image: url('images/page-4.png');
+.interact-6{
+    width: 35%;
+    position:absolute;
+    bottom:10%;
+    left:45%;
+}
+
+.page-7{
+    background-image: url('images/page-7.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.page-4 .content-4{
+.page-7 .content-7{
     position: absolute;
     top: 5%;
     right: 5%;
@@ -91,35 +98,14 @@ section{
     padding: 20px;
 }
 
-.interact-4{
-    width: 50%;
-    position:absolute;
-    left:55%;
-    bottom:5%;
-}
-
-.interact-4-3{
-    width: 50%;
-    position:absolute;
-    right:55%;
-    bottom:5%;
-}
-
-.interact-4-5{
-    width: 50%;
-    position:absolute;
-    left:25%;
-    bottom:5%;
-}
-
-.page-5{
-    background-image: url('images/page-5.png');
+.page-8{
+    background-image: url('images/page-8.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.page-5 .content-5{
+.page-8 .content-8{
     position: absolute;
     top: 5%;
     right: 5%;
@@ -133,16 +119,9 @@ section{
     padding: 20px;
 }
 
-.interact-5{
-    width: 80%;
+.interact-7{
+    width: 60%;
     position:absolute;
-    right:30%;
-    top:1%;
-}
-
-.interact-5-5{
-    width: 70%;
-    position:absolute;
-    left:40%;
+    right:20%;
     top:1%;
 }
