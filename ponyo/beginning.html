@@ -26,8 +26,24 @@
         <div class="content-1">
             <p>Once upon a time, there was a fish, born from a sea goddess and human sorcerer, and had many sisters. One day she escaped from home to explore the world, and got stuck in a jar. Luckily she was saved by a human boy named Sosuke. He named her Ponyo.</p>
         </div>
-        <img src="images/interact-1.png" class="interact-1" alt="Page 1">
-        <img src="images/interact-1.5.png" class="interact-1-5" alt="Page 1.5">
+
+        <img id="myImage" src="images/interact-1.png" style="cursor:pointer;">
+        <style>
+            #myImage {
+            width: 50%;
+            position:absolute;
+            bottom:10%;
+            right:29%;
+            }
+          </style>
+<script>
+  const img = document.getElementById("myImage");
+
+  img.addEventListener("click", function() {
+    img.src = "images/interact-1.5.png";
+  });
+</script>
+
     </section>
 
     <section class="page-2">

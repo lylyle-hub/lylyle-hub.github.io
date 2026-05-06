@@ -26,7 +26,24 @@
         <div class="content-3">
             <p>Back in her home, Ponyo escaped with the help of her 200 sisters and went into her father’s private studies. There she drank a magical elixir that granted her the ability to turn human! Then she set out to reunite with Sosuke.</p>
         </div>
-        <img src="images/interact-3.png" class="interact-3" alt="Page 3">
+        
+        <img id="myImage" src="images/interact-3.png" style="cursor:pointer;">
+        <style>
+            #myImage {
+            width: 42%;
+            position:absolute;
+            bottom:15%;
+            left:29%;
+            }
+          </style>
+<script>
+  const img = document.getElementById("myImage");
+
+  img.addEventListener("click", function() {
+    img.src = "images/interact-3.5.png";
+  });
+</script>
+  
     </section>
 
     <section class="page-4">
