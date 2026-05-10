@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cause:wght@100..900&display=swap');
 
 *{
     box-sizing: border-box;
@@ -56,8 +57,8 @@ section{
     top: 5%;
     right: 5%;
     color: white;
-    font-family: "Sue Ellen Francisco", cursive;
-    font-size: 30px;
+    font-family: "Cause", cursive;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
     width: 320px;
@@ -78,8 +79,8 @@ section{
     top: 5%;
     right: 5%;
     color: white;
-    font-family: "Sue Ellen Francisco", cursive;
-    font-size: 30px;
+    font-family: "Cause", cursive;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
     width: 300px;
@@ -91,15 +92,23 @@ section{
     width: 200%;
     position:absolute;
     top:10%;
-    right:80%;
+    right:280%;
 }
 
-.interact-2-5{
-    width: 200%;
-    position:absolute;
-    top:10%;
-    left:1%;
-}
+.move-container {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 5%;
+  }
+  .moving-image {
+    width: 320px;
+    position: relative;
+    transition: transform 2s linear;
+  }
+  .move-container:hover .moving-image {
+    transform: translateX(-100vw);
+  }
 
 .page-3{
     background-image: url('images/page-3.png');
@@ -114,8 +123,8 @@ section{
     top: 5%;
     right: 5%;
     color: white;
-    font-family: "Sue Ellen Francisco", cursive;
-    font-size: 30px;
+    font-family: "Cause", cursive;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
     width: 300px;
@@ -140,11 +149,11 @@ section{
 .page-4 .content-4{
     position: absolute;
     border-radius: 20px;
-    top: 5%;
+    top: 3%;
     right: 5%;
     color: white;
-    font-family: "Sue Ellen Francisco", cursive;
-    font-size: 30px;
+    font-family: "Cause", cursive;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
     width: 500px;
@@ -173,6 +182,65 @@ section{
     bottom:5%;
 }
 
+.container-1 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+  }
+
+  .container-1 img {
+    position: absolute;
+    width: 150%;
+    height: 100%;
+    left: 80%;
+    object-fit: cover;
+  }
+
+  .container-2 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+  }
+
+  .container-2 img {
+    position: absolute;
+    width: 150%;
+    height: 100%;
+    left: 80%;
+    object-fit: cover;
+  }
+
+  .container-3 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+  }
+
+  .container-3 img {
+    position: absolute;
+    width: 150%;
+    height: 100%;
+    left: 80%;
+    object-fit: cover;
+  }
+
+  .hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+
+  .container-1:hover .hidden {
+    opacity: 1;
+  }
+
+  .container-2:hover .hidden {
+    opacity: 1;
+  }
+
+  .container-3:hover .hidden {
+    opacity: 1;
+  }
+
 .page-5{
     background-image: url('images/page-5.png');
     background-size: cover;
@@ -186,8 +254,8 @@ section{
     top: 5%;
     right: 5%;
     color: white;
-    font-family: "Sue Ellen Francisco", cursive;
-    font-size: 30px;
+    font-family: "Cause", cursive;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
     width: 400px;
@@ -222,8 +290,8 @@ section{
     top: 5%;
     right: 5%;
     color: white;
-    font-family: "Sue Ellen Francisco", cursive;
-    font-size: 30px;
+    font-family: "Cause", cursive;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
     width: 300px;
@@ -231,19 +299,18 @@ section{
     padding: 20px;
 }
 
-.interact-6{
-    width: 35%;
+.interact-6 {
+    width: 50%;
     position:absolute;
     bottom:10%;
-    left:45%;
-}
+    left:30%;
+    cursor: pointer;
+    transition: transform 1s ease;
+  }
 
-.interact-6{
-    width: 35%;
-    position:absolute;
-    bottom:10%;
-    left:45%;
-}
+  .interact-6:hover {
+    transform: translateX(-600px);
+  }
 
 .page-7{
     background-image: url('images/page-7.png');
@@ -258,11 +325,11 @@ section{
     top: 5%;
     right: 5%;
     color: white;
-    font-family: "Sue Ellen Francisco", cursive;
-    font-size: 30px;
+    font-family: "Cause", cursive;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
-    width: 300px;
+    width: 320px;
     background-color: #17438A;
     padding: 20px;
 }
@@ -280,8 +347,8 @@ section{
     top: 5%;
     right: 5%;
     color: white;
-    font-family: "Sue Ellen Francisco", cursive;
-    font-size: 30px;
+    font-family: "Cause", cursive;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
     width: 300px;
