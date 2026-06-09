@@ -1200,3 +1200,21 @@ div.shadow {
     display: block;
   }
   
+  .my-square {
+    border: 2px solid white;
+    width: 500px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    bottom: 14%;
+    left: 1%;
+  }
+  .my-square-2 {
+    border: 2px solid white;
+    width: 500px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    top: 13%;
+    right: 1%;
+  }
