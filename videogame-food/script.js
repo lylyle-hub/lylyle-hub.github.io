@@ -98,3 +98,13 @@ $(Tab-1).ready(function(){
 		setTimeout(function(){isAnimating = false;}, 300);			
 	});
 });
+
+function toggleDrawer() {
+	const drawer = document.getElementById("nav-drawer");
+	const overlay = document.getElementById("overlay");
+	
+	// Toggle the visibility classes
+	drawer.classList.toggle("open");
+	overlay.classList.toggle("active");
+  }
+  

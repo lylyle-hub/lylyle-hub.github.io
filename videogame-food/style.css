@@ -1061,15 +1061,15 @@ div.shadow {
 .stack-container {
     display: flex;
     flex-direction: column;
-  gap: 20px;
-  width:60%;
-  text-align: center;
-  justify-content: center;
-  color: white;
-  margin: 20px auto;
-  position: absolute;
-  right: 10%;
-  bottom: 5%;
+    gap: 20px;
+    width:40%;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin: 20px auto;
+    position: absolute;
+    right: 10%;
+     bottom: 5%;
   }
 
   .stack-link-1 {
@@ -1082,7 +1082,7 @@ div.shadow {
     color: white;
     text-decoration: none;
     font-family: "JetBrains Mono", monospace;
-    font-weight: 100;
+    font-weight: 50;
     font-style: normal;
     font-size: 6rem;
     text-transform: uppercase;
@@ -1101,7 +1101,7 @@ div.shadow {
     color: white;
     text-decoration: none;
     font-family: "Happy Monkey", system-ui;
-    font-weight: 100;
+    font-weight: 50;
     font-style: normal;
     font-size: 6rem;
     text-transform: uppercase;
@@ -1120,7 +1120,7 @@ div.shadow {
     color: white;
     text-decoration: none;
     font-family: "Happy Monkey", system-ui;
-    font-weight: 100;
+    font-weight: 50;
     font-style: normal;
     font-size: 6rem;
     text-transform: uppercase;
@@ -1132,3 +1132,71 @@ div.shadow {
   .stack-container a:hover {
     background-color: white;
   }
+
+  .gif {
+    border: 2px solid white;
+    width: 40%;
+    position: absolute;
+    bottom: 7%;
+    left: 5%;
+  }
+
+  .gif-1 {
+    width: 90%;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    border: 2px solid #D1014F;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+.drawer {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #D1014F;
+    opacity: 0.8;
+    color: white;
+    transition: 0.3s ease-in-out;
+    z-index: 1000;
+    padding-top: 60px;
+    font-family: "Audiowide", sans-serif;
+  }
+  
+  .drawer.open {
+    left: 0;
+  }
+  
+  .drawer-content a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Audiowide", sans-serif;
+  }
+  
+  .drawer-content a:hover {
+    color: #f1f1f1;
+  }
+  
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 999;
+    font-family: "Audiowide", sans-serif;
+  }
+  
+  .overlay.active {
+    display: block;
+  }
+  

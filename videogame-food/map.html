@@ -3,11 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Map</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
 </head>
 <body>
-    
+    <button class="burger-btn" onclick="toggleDrawer()">☰ Open Menu</button>
+<div id="nav-drawer" class="drawer">
+  <button class="close-btn" onclick="toggleDrawer()">× Close</button>
+  <nav class="drawer-content">
+    <a href="index.html">[HOME]</a>
+    <a href="about.html">[ABOUT]</a>
+    <a href="tab1.html">[STARFIELD]</a>
+    <a href="tab2.html">[CYBERPUNK]</a>
+    <a href="tab3.html">[OUTER WORLDS]</a>
+  </nav>
+</div>
+<div id="overlay" class="overlay" onclick="toggleDrawer()"></div>
+    </section>
+    <script src="script.js"></script>
+
+    <style>
+        body {
+          margin: 0;
+          padding: 0;
+          width: 100vw;
+          height: 100vh;
+          background-color: #000;
+          overflow: hidden;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      </style>
+      </head>
+      <body>
+        <img src="images/map-gif.gif" alt="Animated Wallpaper">
+
+      </body>
+      </html>
 </body>
 </html>
