@@ -23,11 +23,15 @@
         </header>
         <div class="box">
             <p>///CHUNKS\\\</p>
-            <p>In Starfield, Chunks is a brand of food products in the Settled Systems. Its main product, the titular Chunks, are small artificial cubes made to resemble various foods and beverages. Chunks was founded by entrepreneur Fred Blombart, who built the company on the philosophy that most people did not care what they ate, as long as it was tasty and filling. The Chunks production process is a tightly-kept secret, to the extent that even most Chunks employees do not know how Chunks are made. Chunks products and fast food restaurants soon became ubiquitous throughout the Settled Systems.</p>
+            <p>In Starfield, Chunks is a brand of food products in the Settled Systems. Its main product, the titular
+                Chunks, are small artificial cubes made to resemble various foods and beverages. Chunks was founded by
+                entrepreneur Fred Blombart, who built the company on the philosophy that most people did not care what
+                they ate, as long as it was tasty and filling. The Chunks production process is a tightly-kept secret,
+                to the extent that even most Chunks employees do not know how Chunks are made. Chunks products and fast
+                food restaurants soon became ubiquitous throughout the Settled Systems.</p>
             <img src="images/chunks_ad.png" class="image-3">
         </div>
     </section>
-
     <section>
         <p></p>
         <div class="info1"></div>
@@ -42,7 +46,7 @@
             </div>
             <div class="card">
                 <img src="images/chunks-2.png">
-                <div class="overlay">
+                <div class="overlay hidden">
                     <p>CHUNKS COSMIC RED APPLE</p>
                     <p>"An apple-flavored food cube."</p>
                     <p>$75</p>
@@ -50,16 +54,23 @@
             </div>
             <div class="card">
                 <img src="images/chunks-3.png">
-                <div class="overlay">
+                <div class="overlay hidden">
                     <p>CHUNKS CAKE</p>
                     <p>"A cake-flavored Chunks food cube. Is it actual cake? Does it really matter?"</p>
                     <p>$75</p>
                 </div>
             </div>
- 
+
     </section>
-
-
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"
+        integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
+    <script>
+        //when we click on the image inside of card, it will remove the class of hidden and add the class of show
+        $('.card').click(function () {
+            $('.card .overlay').removeClass('hidden')
+            $('.card .overlay').addClass('show')
+        })
+    </script>
     <script src="script.js"></script>
 </body>
 
