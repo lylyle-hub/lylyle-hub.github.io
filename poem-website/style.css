@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Twinkle Star", cursive;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-1 {
+    background-color: #d6e6e7;
+    background-image: linear-gradient(to right, #d6e6e7, #f4dfe6);
+    padding: 60px 20px;
+    color: #283b0a; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .page-2 {
+    background-color: #f4dfe6;
+    background-image: linear-gradient(to right, #f4dfe6, #e0a3bb);
+    padding: 60px 20px;
+    color: #283b0a; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .page-3 {
+    background-color: #e0a3bb;
+    background-image: linear-gradient(to right, #e0a3bb, #c5cc82);
+    padding: 60px 20px;
+    color: #283b0a; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .page-4 {
+    background-color: #c5cc82;
+    background-image: linear-gradient(to right, #c5cc82, #97a13b);
+    padding: 60px 20px;
+    color: #283b0a; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .page-5 {
+    background-color: #97a13b;
+    background-image: linear-gradient(to right, #97a13b, #5e891b);
+    padding: 60px 20px;
+    color: #283b0a; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+html{
+    scroll-snap-type: y mandatory;
+}
+
+section{
+    height: 100vh;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.text-element {
+    white-space: nowrap;
+  }
+  
