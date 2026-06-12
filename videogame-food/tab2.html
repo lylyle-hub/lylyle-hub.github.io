@@ -21,7 +21,7 @@
             </nav>
         </header>
         <div class="box">
-            <p>///VENDING-FOOD\\\</p>
+            <header>[Vending Food]</header>
             <p>In places like Cyberpunk 2077's Night City, vending machines (Bendits or S.C.S.M.s) often completely replace home kitchens. Vending machines dispense synthetic sustenance designed for maximum efficiency and minimum cost. Real meat and fresh produce are rarities; instead, machines are stocked with lab-grown, pre-packaged concoctions. However, these aren't your friendly neighborhood snack boxes. Food corporations do not trust consumers, resulting in heavily armored machines that can include automated turrets. Kicking a machine or trying to shake loose a stuck burrito could result in a fatal encounter.</p>
             <img src="images/cp_ad-2.png" class="image-4">
         </div>
@@ -35,30 +35,38 @@
         <div class="box">
             <div class="card">
                 <img src="images/vending-3.png">
-                <div class="overlay-1">
-                    <h2>BURRITO XXL</h2>
+                <div class="overlay hidden">
+                    <h2>[BURRITO XXL]</h2>
                     <p>It's big. Like really big.</p>
                     <p>+ 5% Max Health</p>
                 </div>
             </div>
             <div class="card">
                 <img src="images/vending-1.png">
-                <div class="overlay-1">
-                    <h2>ORGIATIC OMNIFLAVE</h2>
+                <div class="overlay hidden">
+                    <h2>[ORGIATIC OMNIFLAVE]</h2>
                     <p>Let your tongue do all the work.</p>
                     <p>+ 5% Max Health</p>
                 </div>
             </div>
             <div class="card">
                 <img src="images/vending-2.png">
-                <div class="overlay-1">
+                <div class="overlay hidden">
                     <h2>SLAUGHTERHOUSE PRIME</h2>
                     <p>With over 70% syn-meat derivatives!</p>
                     <p>+ 5% Max Health</p>
                 </div>
             </div>
     </section>
-
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"
+        integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
+    <script>
+        //when we click on the image inside of card, it will remove the class of hidden and add the class of show
+        $('.card').click(function () {
+            $('.card .overlay').removeClass('hidden')
+            $('.card .overlay').addClass('show')
+        })
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
