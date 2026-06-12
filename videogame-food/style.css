@@ -714,10 +714,10 @@ section.page-5 .content-3 {
 }
 
 .gif {
-    border: 2px solid white;
+    border: 5px solid white;
     width: 40%;
     position: absolute;
-    bottom: 7%;
+    bottom: 8%;
     left: 5%;
 }
 
@@ -726,7 +726,7 @@ section.page-5 .content-3 {
     position: absolute;
     top: 15%;
     left: 5%;
-    border: 2px solid #D1014F;
+    border: 5px solid #D1014F;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -881,9 +881,4 @@ a:hover {
     padding: 20px;
     color: white;
     background-color: black;
-}
-
-.about-link header:hover {
-    background-color: white;
-    color: black;
 }
